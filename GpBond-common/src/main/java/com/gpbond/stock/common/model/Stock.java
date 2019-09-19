@@ -23,8 +23,10 @@ public class Stock {
 	
 	public BigDecimal priceDiff;  //差价（= priceNow - priceOpen）
 	
+	public BigDecimal priceAvg;  //均价
+	
 	 
-	public Long dealQuantity; //成交量
+	public Long dealCount; //成交量
 	
 	public BigDecimal dealPriceTotal;  //成交额
 	
@@ -34,7 +36,7 @@ public class Stock {
 	public int amplitude; //振幅
 	
 	
-	
+	private String time; 
 	
 
 }
