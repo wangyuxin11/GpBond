@@ -1,12 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.gpbond.stock</groupId>
-  <artifactId>GpBond</artifactId>
-  <version>1.0</version>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>GpBond-spider</module>
-  	<module>GpBond-common</module>
-  	<module>GpBond-web</module>
-  </modules>
+  <parent>
+    <groupId>com.gpbond.stock</groupId>
+    <artifactId>GpBond</artifactId>
+    <version>1.0</version>
+  </parent>
+  <groupId>com.gpbond.stock.web</groupId>
+  <artifactId>GpBond-web</artifactId>
 </project>
